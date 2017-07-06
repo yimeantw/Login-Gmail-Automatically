@@ -14,7 +14,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time,types
 get_attr = lambda driver, e:driver.execute_script('var items = {}; for (index = 0; index < arguments[0].attributes.length; ++index) { items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value }; return items;', e)
-#20170706 I don't know who this lambda function work.
+#20170706 I don't know how this lambda function works.
 
 account="rocktek.test@gmail.com"
 pwd="rockmouse"
