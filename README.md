@@ -1,8 +1,12 @@
 # Login-Gmail-Automatically
 This code is used Python3 to implement.
-This application is able to use on chrome brower and the enviroment is ubuntu
-you need put chromedriver into the path"/home/brook/python3/chromedriver"
+This application is able to use on chrome brower and the enviroment is ubuntu 16.04
+you need to put the chromedriver into the path"/home/brook/python3/chromedriver"
 The chromedirver is only used to chrome browser.
+
+By doing Move "the file to /usr/bin directory sudo mv chromedriver /usr/bin" you can mask the path discription.
+Here is a thing, /usr/bin can not be accessed easily, except you have root authority.
+
 
 The following discriptions are the result of this app
 
